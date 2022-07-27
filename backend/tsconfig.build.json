@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "../frontend",
+    "backend/test",
+    "dist",
+    "**/*spec.ts"
+  ]
+}
